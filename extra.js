@@ -1,14 +1,18 @@
 'use strict';
 //Ejercicio 1 Años bisisestos
 
-// const bisisestos = [0,4,8,12,16,20,24,28];
+let year = parseInt(prompt("¿Cúando cree que será el próximo año bisisesto?"));
 
-// let años = prompt("¿Cúando cree que será el préximo año bisisesto")
+if (year %4 ==0){
+    alert("Este es un año bisiesto")
+} else if ((year+1)%4 ==0){
+    alert ("El próximo año bisiesto es: " + (year + 1));
+} else if ((year+2)%4 ==0){
+    alert ("El próximo año bisiesto es: "+ (year +2));
+} else if ((year+3)%4 ==0) {
+    alert ("El próximo año bisiesto es: " + (year +3));
+};
 
-// if (años !== bisisestos.element ){
-//     alert("el proximo año bisiesto será" + )
-
-// }
 
 //Ejercicio 2 Usuarios Premium
 
@@ -31,7 +35,8 @@ for (let element of premium) {
     console.log(`El usuario ${element.username} es premium`);
 };
 
-//filtramps para los usuarios no premium
+
+//filtramos para los usuarios no premium
 const notpremium = users.filter(noprm =>noprm.premium == false);
 console.log(notpremium);
 

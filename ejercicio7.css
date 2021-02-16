@@ -1,0 +1,42 @@
+.cajaprincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.hr {
+    display: none;
+}
+
+@media all and (max-width: 320px){
+    .cajaprincipal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px auto;
+
+    }
+    .hr {
+        height: 5px;
+        background-color: black;
+        margin: 0px;
+        align-self: flex-start;
+      }
+
+}
+
+@media all and (max-width: 768px){
+    .cajaprincipal {
+        display: flex;
+    }
+    .cajasecundaria {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px;
+
+
+
+    }
+}
