@@ -87,6 +87,11 @@ for (let number of numeros){
     console.log(number)
 };
 
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+
 //Ejercicio 5 Bucle en orden inverso del 1 al 10
 
 for (let number of numeros.reverse()){
