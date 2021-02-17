@@ -26,7 +26,7 @@
 
 }
 
-@media all and (max-width: 768px){
+@media all and (min-width: 768px){
     .cajaprincipal {
         display: flex;
     }
@@ -35,8 +35,5 @@
         flex-direction: column;
         justify-content: space-between;
         margin: 10px;
-
-
-
     }
 }
